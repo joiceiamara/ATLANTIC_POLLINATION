@@ -1,0 +1,102 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "DATASET/ATLANTIC-floverint_int.csv",
+    "dcterms:bibliographicCitation" : "Iamara-Nogueira, J., Targhetta, N., Allain, G., Gambarini, A., Pinto, A. R., Rui, A. M., Araújo, A. C., Lopes, A., Pereira-Silva, B., de Camargo, B. B., Machado, C. G., Missagia, C., Scultori, C., Boscolo, D., Fischer, E., Araújo-Oliveira, E. S., Gava, H., Paulino-Neto, H. F., Machado, I. C., Varassin, I. G., Sazima, I., Vizentin-Bugoni, J., Silva, J. L. S., de Oliveira Ferreira, J., Narita, J., dos Santos, J. S., Agostini, K., Freitas, L., Lopes, L. E., Carvalho-Leite, L. J., Tabarelli, M., Rocca, M. A., Malanotte, M. L., Alves, M. A. S., Canela, M. B. F., Darrigo, M. R., Moreira, M. M., Wolowski, M., Sazima, M., Galetti, M., Ribeiro, M. C., Groppo, M., Kaehler, M., Batista, M. d. A., Neto, O. C., Ferreira, P. A., Bergamo, P. J., Maruyama, P. K., Bueno, R. O., Leal, R. L. B., Faria, R. R., Bazarian, S., Malucelli, T., and Buzato, S.. 2022. ATLANTIC POLLINATION: a data set of flowers and interaction with nectar-feeding vertebrates from the Atlantic Forest. Ecology 103( 2):e03595. 10.1002/ecy.3595",
+    "delimiter" : ";",
+    "headerRowCount" : 1,
+    "interactionTypeName" : "pollinates",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002455",
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "id",
+        "titles" : "id",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "genera_plant",
+        "datatype" : "string"
+      }, {
+        "name" : "genera_plan_ver",
+        "titles" : "genera_plan_ver",
+        "datatype" : "string"
+      }, {
+        "name" : "taxonTaxonSpecificEpithetName",
+        "titles" : "sp_plant",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonAuthorship",
+        "titles" : "author_plant",
+        "datatype" : "string"
+      }, {
+        "name" : "sp_plant_ver",
+        "titles" : "sp_plant_ver",
+        "datatype" : "string"
+      }, {
+        "name" : "author_plant_ver",
+        "titles" : "author_plant_ver",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubfamilyName",
+        "titles" : "subfamily",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "genera_floralvisitor",
+        "datatype" : "string"
+      }, {
+        "name" : "genera_floralvisitor_ver",
+        "titles" : "genera_floralvisitor_ver",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "sp_floralvisitor",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonAuthorship",
+        "titles" : "author_floralvisitor",
+        "datatype" : "string"
+      }, {
+        "name" : "sp_floralvisitor_ver",
+        "titles" : "sp_floralvisitor_ver",
+        "datatype" : "string"
+      }, {
+        "name" : "author_floralvisitor_ver",
+        "titles" : "author_floralvisitor_ver",
+        "datatype" : "string"
+      }, {
+        "name" : "pollinator_group",
+        "titles" : "pollinator_group",
+        "datatype" : "string"
+      }, {
+        "name" : "bodypolendeposition",
+        "titles" : "bodypolendeposition",
+        "datatype" : "string"
+      }, {
+        "name" : "behaviour",
+        "titles" : "behaviour",
+        "datatype" : "string"
+      }, {
+        "name" : "relativefrequency",
+        "titles" : "relativefrequency",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
